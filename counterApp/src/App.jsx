@@ -6,12 +6,23 @@ function App() {
 
   // Increment the counter value
   const addValue = () => {
-    setCounter(counter + 1)
+    if (counter <= 19) {
+      setCounter(counter + 1)
+    }
+    else {
+      alert('Counter value should not exceed 20')
+    }
+    
   }
 
   // Decrement the counter value
   const subtractValue = () => {
+    if (counter > 0){
     setCounter(counter - 1)
+    }
+    else{
+      alert('Counter value must be greater than 0')
+    }
   }
   return(
     <>
