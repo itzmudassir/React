@@ -7,8 +7,11 @@ function App() {
   return (
     <>
     <Navbar />
-    <Card btnText="Visit me" heading="About Macbook" />
-    <Card />
+    <div className="card-container">
+        <Card btnText="Visit me" heading="About Macbook" />
+        <Card />
+        <Card />
+      </div>
     </>
   )
 }
