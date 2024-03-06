@@ -9,8 +9,8 @@ function App() {
     <Navbar />
     <div className="card-container">
         <Card btnText="Visit me" heading="About Macbook" />
-        <Card />
-        <Card />
+        <Card heading="About Lenovo"/>
+        <Card heading="About HP"/>
       </div>
     </>
   )
