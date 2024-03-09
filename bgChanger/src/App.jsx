@@ -39,6 +39,13 @@ function App() {
             >
               Green
             </button>
+            <button
+              className="outline-none px-4 py-1 rounded-full text-black shadow-lg"
+              style={{ backgroundColor: "blue" }}
+              onClick={() => changeColorAndMode("blue", "blue")}
+            >
+              Blue
+            </button>
           </div>
         </div>
       </div>
