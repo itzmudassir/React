@@ -38,6 +38,7 @@ function App() {
     passwordGenerator()
   }, [length, numberAllowed, charAllowed, passwordGenerator])
   return (
+    <>
     
     <div className="w-full max-w-md mx-auto shadow-lg rounded-xl px-4 py-3 my-8 bg-gray-800 text-orange-500">
       <h1 className='text-white text-center my-3'>Password generator</h1>
@@ -89,10 +90,16 @@ function App() {
               }}
           />
           <label htmlFor="characterInput">Characters</label>
+          
       </div>
     </div>
+
 </div>
-    
+<div className='flex justify-center'>
+    <label className='text-white text-sm'>
+      Made with ❤️ by <a target='_blank' href="inkedin.com/in/itzmudassir/" >Mudassir</a></label>
+</div>
+    </>
   )
 }
 
